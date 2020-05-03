@@ -1,0 +1,15 @@
+@import "./fonts.css";
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.start {
+    max-width: 580px;
+    margin: 150px auto 0 auto;
+    text-align: center;
+    img {
+        width: 100%;
+    }
+}
+
