@@ -1,0 +1,71 @@
+.navbar-wrap {
+  display: flex;
+  align-items: center;
+  min-height: 80px;
+justify-content: space-between;
+
+}
+.menu_button {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: transparent;
+  border: none;
+  border-right: 1px solid rgba(#03f803, 0.2);
+  border-left: 1px solid green;
+  height:  80px;
+  width: 70px;
+}
+.menu_buttonLine {
+  display: block;
+  margin: 5px 0;
+  width: 30px;
+  height: 2px;
+  background-color: black;
+}
+.navbar_logo strong {
+  display: block;
+  margin-bottom: 0;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.navbar_logo span {
+  font-size: 14px;
+  color: #999;
+
+}
+
+.navbar_mobile_0, .navbar_mobile {
+  text-align: right;
+}
+
+.navbar_mobile_0 a {
+  font-size: 19px;
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+.navbar_mobile_0 span {
+  color: #999;
+  font-size: 14px;
+}
+.navbar_mobile .phone {
+  font-size: 19px;
+display: block;
+  color: black;
+  text-decoration: none;
+}
+.navbar_mobile .mail {
+  color: #999;
+  font-size: 14px;
+}
+.button_navbar-0 {
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 17px 22px;
+  border: 2px solid #ff0000;
+  background-color: transparent;
+}

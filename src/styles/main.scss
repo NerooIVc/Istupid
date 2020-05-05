@@ -1,7 +1,15 @@
+@import "normalize.css";
 @import "./fonts.css";
+@import "_grid.scss";
+@import "blocks/navbar";
 
 body {
     font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 1260px;
+    margin: 0 auto;
 }
 
 .start {
