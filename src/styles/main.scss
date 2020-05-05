@@ -2,15 +2,39 @@
 @import "./fonts.css";
 @import "_grid.scss";
 @import "blocks/navbar";
-
+@import "blocks/hero";
+//@import "blocks/hero";
 body {
     font-family: "Roboto", sans-serif;
 }
-
+button {
+    outline: none;
+}
+h1 {
+    font-weight: 400;
+}
 .container {
     max-width: 1260px;
     margin: 0 auto;
 }
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+@media (max-width: 991px) {
+    .container {
+        max-width: 750px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 0 30px;
+    }
+}
+
+
 
 .start {
     max-width: 580px;
