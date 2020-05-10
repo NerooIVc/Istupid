@@ -54,7 +54,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist")
   },
   devServer: {
-    port: 4200
+    port: 4300
     // hot: isDev
   },
   optimization: optimization(),

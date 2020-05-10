@@ -3,6 +3,7 @@
 @import "_grid.scss";
 @import "blocks/navbar";
 @import "blocks/hero";
+@import "blocks/offers";
 //@import "blocks/hero";
 body {
     font-family: "Roboto", sans-serif;
@@ -12,6 +13,9 @@ button {
 }
 h1 {
     font-weight: 400;
+}
+h2 {
+    margin: 0;
 }
 .container {
     max-width: 1260px;
@@ -44,4 +48,6 @@ h1 {
         width: 100%;
     }
 }
-
+.bg-sec {
+    background-color: #f1f1f1;
+}
