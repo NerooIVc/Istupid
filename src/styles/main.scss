@@ -4,7 +4,12 @@
 @import "blocks/navbar";
 @import "blocks/hero";
 @import "blocks/offers";
-//@import "blocks/hero";
+@import "blocks/features";
+@import "blocks/catalog";
+
+section {
+    padding: 100px 0;
+}
 body {
     font-family: "Roboto", sans-serif;
 }
@@ -16,6 +21,9 @@ h1 {
 }
 h2 {
     margin: 0;
+    margin-bottom: 100px;
+    text-align: center;
+    text-transform: uppercase;
 }
 .container {
     max-width: 1260px;
