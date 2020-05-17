@@ -1,0 +1,46 @@
+.section-line {
+  background-color: #f1f1f1;
+}
+
+.stage p {
+
+  text-align: center;
+  font-size: 13px;
+  color: #555555;
+  margin-top: 20px;
+}
+.step {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+  position: relative;
+}
+.stage {
+  text-align: center;
+
+}
+.line {
+  height: 1px;
+  width: 84%;
+  background-color: #555555;
+  bottom: 134px;
+  position: absolute;
+  right: 87px;
+  z-index: 1;
+
+}
+.stage span {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+}
+ .stage img {
+   opacity: 1;
+   z-index: 10;
+   position: relative;
+ }
+ .stage span {
+   color: #555555;
+ }
+

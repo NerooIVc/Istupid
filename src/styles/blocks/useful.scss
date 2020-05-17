@@ -1,0 +1,36 @@
+.useful-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.useful-top p {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.useful-item span {
+  display: block;
+  text-align: center;
+  padding: 20px 0;
+}
+.useful-item img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+
+}
+.useful-blocks {
+  display: flex;
+  justify-content: space-between;
+}
+.useful-item {
+  width: calc(25% - 10px);
+  box-shadow: 1px 1px 8px 3px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  cursor: pointer;
+
+ }
+.useful-item:hover {
+  box-shadow: 3px 5px 8px 3px rgba(0, 0, 0, 0.4);
+}
