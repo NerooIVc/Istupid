@@ -17,6 +17,7 @@
   display: block;
   margin-bottom: 30px;
   color: #999999;
+  max-width: 990px;
 }
 
 .form-row {
@@ -65,4 +66,37 @@ form {
   background-color: #06348f;
   color: #f1f1f1;
   border: none;
+}
+.ups {
+  width: 66%;
+  padding: 20px;
+}
+.form-button1 {
+  width: 33%;
+}
+.offer-block1 {
+  top: -285px;
+  background-size: contain;
+}
+
+.kick {
+  display: flex;
+}
+.kick img {
+  margin-left: 127px;
+  object-fit: contain;
+}
+
+.kick2 {
+  display: block;
+  font-size: 20px;
+  margin-left: 75px;
+  color: #555555;
+  text-align: left;
+  width: 50%;
+}
+
+.h2h {
+  margin-bottom: 30px;
+  margin-top: -130px;
 }
